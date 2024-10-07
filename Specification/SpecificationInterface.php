@@ -13,7 +13,7 @@ interface SpecificationInterface
     /**
      * Returns information about the specification.
      *
-     * @return string
+     * @return SpecificationInfoInterface
      */
     public function getInfo(): SpecificationInfoInterface;
 
