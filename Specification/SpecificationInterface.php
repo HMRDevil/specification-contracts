@@ -11,11 +11,11 @@ namespace SpecDoc\Specificator\Contracts\Specification;
 interface SpecificationInterface
 {
     /**
-     * Returns the type of the specification.
+     * Returns information about the specification.
      *
      * @return string
      */
-    public function getType(): string;
+    public function getInfo(): SpecificationInfoInterface;
 
     /**
      * Returns a list of supported document elements.
